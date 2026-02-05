@@ -1,0 +1,29 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup.*
+*.tfstate.*.backup
+
+# Ignore any personal tfvars files
+terraform.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Secrets / credentials
+*.pem
+*.key
+*.json               # ← very important if you downloaded service account key
+credentials.json
+
+# OS / editor files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
