@@ -2,6 +2,11 @@
 
 Simple Terraform configuration that creates a Compute Engine VM on Google Cloud Platform.
 
+
+## Credits and Inspiration.
+- Huge thanks to Abhishek Veeramalla for his incredibly clear and practical Terraform explanation.  
+
+
 ## Features
 - Uses variables for customization
 - Configured GCS remote backend
@@ -24,5 +29,3 @@ terraform plan
 terraform apply
 terraform destroy
 
-## Credits and Inspiration.
-- Huge thanks to Abhishek Veeramalla for his incredibly clear and practical Terraform explanation.  
