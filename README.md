@@ -20,7 +20,7 @@ Simple Terraform configuration that creates a Compute Engine VM on Google Cloud 
 ## Usage
 
 1. Copy `terraform.tfvars.example` → `terraform.tfvars`
-2. Fill in your `project_id`
+2. Fill in your `project_id` `region_name` `zone`
 3. Run:
 
 ```bash
